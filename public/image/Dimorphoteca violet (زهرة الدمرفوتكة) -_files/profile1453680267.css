@@ -1,0 +1,434 @@
+/*-----------------------*/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/**************** Home 5 *****************/
+.header-logo {
+  padding-top: 50px;
+  text-align: center;
+}
+.header-logo .ApImage {
+  margin-bottom: 0px;
+}
+
+#footer {
+  background: #333333;
+}
+#footer .container {
+  background: #333333;
+  color: #999999;
+}
+#footer ul li a {
+  color: #999999;
+}
+
+.blockcart_top {
+  float: right;
+}
+.rtl .blockcart_top {
+  float: left;
+}
+
+#cart .title-cart {
+  color: #666;
+  width: 25px;
+  height: 30px;
+  position: relative;
+}
+#cart .title-cart:before {
+  top: 0;
+  height: 30px;
+  background: none;
+}
+#cart .heading-cart {
+  color: #b0896c;
+  display: inline-block;
+}
+#cart .heading-cart span {
+  margin-top: 6px;
+  font-weight: 700;
+}
+#cart .heading-cart span.title-cart {
+  margin: 0 18px 0 0;
+}
+.rtl #cart .heading-cart span.title-cart {
+  margin: 0 0 0 18px;
+}
+
+#header .cart_block {
+  top: 48px;
+}
+
+.popup-over {
+  float: left;
+}
+.rtl .popup-over {
+  float: right;
+}
+.popup-over .popup-title {
+  display: block;
+  padding: 13px 13px 13px 0;
+}
+.rtl .popup-over .popup-title {
+  padding: 13px 0 13px 13px;
+}
+.popup-over .popup-title:after {
+  position: absolute;
+  top: 3px;
+  content: "/";
+  color: #DDD;
+  font-size: 28px;
+  background-color: transparent;
+  right: 5px;
+  left: inherit;
+}
+.popup-over .popup-title a {
+  color: #666;
+  font-size: 14px;
+}
+.popup-over .popup-title a:hover {
+  color: #b0896c;
+}
+.popup-over.topbar-box .popup-title {
+  padding: 13px 16px 13px 0;
+}
+.rtl .popup-over.topbar-box .popup-title {
+  padding: 13px 0 13px 16px;
+}
+.popup-over .popup-content {
+  top: 48px;
+  left: 0;
+  right: inherit;
+}
+.popup-over.header_user_info .popup-content {
+  right: 0;
+  left: inherit;
+}
+
+#newsletter_block_left {
+  text-align: center;
+}
+#newsletter_block_left .title_block {
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+#newsletter_block_left .title_block:before, #newsletter_block_left .title_block:after {
+  content: none;
+  background-color: transparent;
+}
+#newsletter_block_left form {
+  width: 60%;
+  margin: 0 auto;
+}
+#newsletter_block_left form input[type="text"] {
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+  height: 50px;
+}
+#newsletter_block_left form .btn {
+  color: white;
+  padding: 0 40px;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #b0896c;
+}
+#newsletter_block_left form .btn:hover, #newsletter_block_left form .btn:focus {
+  color: white;
+  background-color: #444040;
+}
+#newsletter_block_left form .btn span {
+  display: block;
+}
+#newsletter_block_left form .btn .fa {
+  display: none;
+}
+
+.grid-block-h2 .image_description {
+  padding: 9em 0;
+  text-align: center;
+}
+
+.home-action {
+  color: white;
+}
+.home-action .title_2 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.home-action .dest {
+  padding-right: 155px;
+}
+.rtl .home-action .dest {
+  padding-left: 155px;
+  padding-right: inherit;
+}
+.home-action .btn {
+  border: 2px solid #b0896c;
+  padding: 6px 30px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.rtl .home-action .btn {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.home-action .btn:hover {
+  border: 2px solid #444040;
+}
+.home-action .btn.btn-visit {
+  border-color: white;
+}
+.home-action .btn.btn-visit:hover {
+  color: #b0896c;
+  border-color: #b0896c;
+}
+
+#leo-megamenu .navbar-nav {
+  float: none !important;
+  text-align: center;
+}
+#leo-megamenu .navbar-nav > li {
+  float: none !important;
+  display: inline-block;
+}
+#leo-megamenu .navbar-nav > li > a {
+  color: black;
+  padding: 20px 25px;
+}
+#leo-megamenu .navbar-nav > li > a .caret {
+  color: black;
+}
+
+.top-imagehtml {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+/************* Responsive ***************/
+@media (min-width: 991px) {
+  .btn-search {
+    position: inherit;
+    color: black;
+    margin-top: 0;
+    padding: 5px 0 7px 25px;
+    float: right;
+  }
+  .rtl .btn-search {
+    padding: 20px 25px 20px 0;
+  }
+  .rtl .btn-search {
+    float: left;
+  }
+}
+@media (max-width: 991px) {
+  .header-logo {
+    padding-top: 40px;
+  }
+
+  .top-imagehtml {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .grid-block-h2 .image_description {
+    padding: 3em 0;
+    text-align: center;
+  }
+
+  .navbar-header .navbar-toggle {
+    margin: 8px 10px 0 0;
+  }
+  .rtl .navbar-header .navbar-toggle {
+    margin: 8px 0 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .home-action {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+.home-action .title_2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+  .home-action .dest {
+    padding-right: 0;
+  }
+  .rtl .home-action .dest {
+    padding-left: 0;
+    padding-right: inherit;
+  }
+
+  #newsletter_block_left form {
+    width: 80%;
+  }
+}
+@media (max-width: 640px) {
+  #newsletter_block_left form {
+    width: 100%;
+  }
+  #newsletter_block_left form .btn {
+    padding: 0 20px;
+  }
+  #newsletter_block_left form .btn span {
+    display: none;
+  }
+  #newsletter_block_left form .btn .fa {
+    display: block;
+  }
+
+  .popup-over .popup-title:before {
+    right: 10px;
+  }
+  .popup-over .popup-title:after {
+    right: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .popup-over {
+    padding: 0 5px;
+  }
+
+  #cart {
+    width: 45px;
+    height: 40px;
+  }
+  #cart .heading-cart .ajax_cart_quantity {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: #b0896c;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    right: 0;
+  }
+  .rtl #cart .heading-cart .ajax_cart_quantity {
+    left: 0;
+    right: auto;
+  }
+  #cart .heading-cart .ajax_cart_total,
+  #cart .heading-cart .ajax_cart_no_product,
+  #cart .heading-cart .ajax_cart_product_txt_s,
+  #cart .heading-cart .ajax_cart_product_txt {
+    display: none !important;
+  }
+}
+/************* RTL ***************/
+.rtl .popup-over .popup-title:after {
+  left: 0;
+  right: inherit;
+}
+.rtl .popup-over .popup-content {
+  right: 0;
+  left: inherit;
+}
+.rtl .popup-over.header_user_info .popup-content {
+  left: 0;
+  right: inherit;
+}
+
+/************** skin ******************/
+.skin1 #cart .heading-cart {
+  color: #d3b59d;
+}
+.skin1 .home-action .btn {
+  border-color: #d3b59d;
+}
+.skin1 .home-action .btn:hover {
+  border-color: #444040;
+}
+.skin1 .home-action .btn.btn-visit {
+  border-color: white;
+}
+.skin1 .home-action .btn.btn-visit:hover {
+  color: #d3b59d;
+  border-color: #d3b59d;
+}
+.skin1 #newsletter_block_left form .btn {
+  background-color: #d3b59d;
+}
+
+.skin2 #cart .heading-cart {
+  color: #5aa0c1;
+}
+.skin2 .home-action .btn {
+  border-color: #5aa0c1;
+}
+.skin2 .home-action .btn:hover {
+  border-color: #444040;
+}
+.skin2 .home-action .btn.btn-visit {
+  border-color: white;
+}
+.skin2 .home-action .btn.btn-visit:hover {
+  color: #5aa0c1;
+  border-color: #5aa0c1;
+}
+.skin2 #newsletter_block_left form .btn {
+  background-color: #5aa0c1;
+}
+
+.skin3 #cart .heading-cart {
+  color: #9dc2b0;
+}
+.skin3 .home-action .btn {
+  border-color: #9dc2b0;
+}
+.skin3 .home-action .btn:hover {
+  border-color: #444040;
+}
+.skin3 .home-action .btn.btn-visit {
+  border-color: white;
+}
+.skin3 .home-action .btn.btn-visit:hover {
+  color: #9dc2b0;
+  border-color: #9dc2b0;
+}
+.skin3 #newsletter_block_left form .btn {
+  background-color: #9dc2b0;
+}
+
+.skin4 #cart .heading-cart {
+  color: #e38384;
+}
+.skin4 .home-action .btn {
+  border-color: #e38384;
+}
+.skin4 .home-action .btn:hover {
+  border-color: #444040;
+}
+.skin4 .home-action .btn.btn-visit {
+  border-color: white;
+}
+.skin4 .home-action .btn.btn-visit:hover {
+  color: #e38384;
+  border-color: #e38384;
+}
+.skin4 #newsletter_block_left form .btn {
+  background-color: #e38384;
+}

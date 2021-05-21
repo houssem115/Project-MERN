@@ -1,0 +1,406 @@
+.cc{
+    display: flex;
+}
+
+.im{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.odi{
+
+width: 6px;
+height: 5px;
+}
+.adminst{
+  color: #7a25a1;
+}
+.pardmin{
+ 
+  height: 80px;
+  display: flex;
+}
+.pardmin p{
+  padding-top: 20px;
+  color: rgba(2, 70, 17, 0.356);
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.esclient {
+padding-top: 10px;
+margin: 5px;
+
+}
+.esclient a{
+  text-decoration: none;
+}
+.esclient p{
+  
+  color: rgb(167, 52, 90);
+  font-size: 20px;
+    font-style: italic;
+}
+.esclient p:hover{
+  color: rgb(18, 71, 107);
+}
+
+
+
+
+h2{
+   
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 10px;
+    width: 450px;
+    height: 150px;
+    color:  blanchedalmond;
+
+    text-align: right;
+   
+ 
+  }
+ 
+
+    
+
+.img-fluid{
+    padding-top: 2px;  
+}
+
+
+.zimage{
+    padding: 0px;
+    position: absolute;
+    width: 97%;
+    height: 160px;
+    z-index: -1;
+
+}
+.d-block{
+    width:100%;
+    height: 480px;
+}
+ .z-depth-1{
+ 
+    width:90%;
+    height: 480px;
+    
+}
+.text-center {
+    width: 90%;
+}
+.dropdown-default{
+    border-radius: 10px;
+    width: 550px;
+    height:200px ;
+    
+}
+
+.zimagee{
+    width:95%;
+    height: 180px;
+   margin-left: 10px;
+    border-radius: 8px;
+    
+}
+.zimageee{
+    width:70%;
+    height: 180px;
+   margin-left: 10px;
+    border-radius: 8px;
+    
+}
+
+.font-small {
+    width: 100%;
+  padding-top: 0px;
+}
+
+.text-center{
+   
+    width: 100%;
+}    
+
+.box {
+
+    height: 50px;
+    display: flex;
+}
+.aff  {
+
+    height: 500px;
+    padding-left:50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ h4{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+  
+}
+.gar{
+    margin-top:30px ;
+    width: 100%;
+    height: 200px;
+
+    background-color: #bdbdbd;
+
+
+}
+.gar h4{
+    font-weight: bold;
+    text-align: center;
+    color:green;
+    
+}
+.gar p{
+
+    text-align: center;
+    color: blanchedalmond;
+    
+}
+
+
+
+
+  .raw1 MDBCol{
+      display: flex;
+      justify-content: space-around;
+
+  }
+  .weather{
+      width: 220px;
+      height: 480px;
+      background-color:rgb(114,143,167);
+     
+   
+  }
+  .weather img{
+   padding: 0px;
+      width: 220px;
+      height: 180px;
+   
+  }
+ 
+  
+  .weather p{
+      padding-top: 0px;
+      padding-left: 10px;
+      color: blanchedalmond;
+    font-style: normal;
+      font-size: medium;
+      font-weight: 500;
+  }
+
+    
+
+ p{
+    color: black;
+    font-size: medium;
+    padding-left: 10px;
+    
+    font-style: italic;
+   font-family: Georgia,'Times New Roman', Times, serif;
+ }
+ .inputs{
+        padding-left: 7px;
+    
+     
+ }
+ .inputs input{
+    border: none;
+    color: blanchedalmond;
+    border-bottom: 1px solid green;
+  
+    background: transparent;
+ }
+ ::-webkit-input-placeholder{
+     color: rgb(4, 87, 62);
+ }
+ .weather button{
+    transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+ margin-left: 40px;
+  padding: 0px 20px ;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+ 
+ }
+ button:hover {
+    background-color: green;
+    color: white;
+ }
+ .bt{
+     width: 60px;
+     height: 30px;
+ }
+ #customers {
+     padding-top: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  h1{
+      padding-top: 10px;
+      text-align: center;
+
+  }
+ 
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  
+  .w3-container{
+    padding:0.01em 16px
+  }
+  .inscrit{
+     
+      font-style: normal;
+      font-family: sans-serif;
+    
+      padding: 4px;
+      width: 27%;
+      height: 310px;
+      margin: 80px;
+      text-shadow: yellowgreen;
+      background-color: rgb(110, 126, 112);
+      border-radius: 15px;
+     
+  }
+  .w3-input {
+    padding:3px;display:block;border:none;border-radius:5px;border-bottom:1px solid rgb(19, 177, 40);width:220px;
+    background-color: rgb(19, 177, 40);
+    margin: 5px;
+  }
+  .btnins{
+     
+      justify-content: center;
+      text-align: center;
+      padding-top: 10px;
+  }
+  .inscrit p{
+      padding-top: 10px;
+      text-align: center;
+     font-size: x-large;
+      color: rgb(53, 207, 207);
+  }
+  .con a{
+      text-decoration: none;
+      color: moccasin;
+  }
+  .ad a{
+    color: moccasin;
+      padding-left: 10px;
+  }
+  .sh a{
+    margin-top: 20px;
+      font-size: medium;
+    text-decoration: none;
+    color: moccasin;
+  }
+  .sh h6{
+      
+      font-style: oblique;
+      padding-top: 10px;
+      color: blanchedalmond;
+  }
+  .formarbre{
+      width: 400px;
+      justify-content: center;
+      
+  }
+  table{
+    text-shadow: greenyellow;
+    text-align: center;
+    width: 600px;
+  
+   background-color:floralwhite;
+   
+  font: 1em sans-serif;
+  border: forestgreen;
+  border-style: solid;
+}
+  .affichar{
+      padding-top: 30px;
+  justify-content: right;
+  padding-left: 120px;
+  }
+   td{
+      width: 5px;
+     
+  }
+  tr:hover {background-color: deepskyblue;}
+  .arbreaffich{
+     
+    padding-top: 20px;
+      display: flex;
+      
+  }
+  .titrear{
+    border-bottom: deepskyblue 5px solid;
+  }
+  .decon{
+  
+    padding-top: 4px;
+    padding-left: 5px;
+    color: cornsilk;
+    border: none;
+    font-style: normal; 
+    width: 15px;
+    
+    cursor: pointer;
+  
+  }
+  .deconn{
+    padding-top: 23px;
+    padding-left: 3px;
+   
+    color: cornsilk;
+    border: none;
+    width: 20px;
+    cursor: pointer;
+  
+  }
+  .decon:hover {
+    color:#ff0000;
+    
+  }
+  
+  
+  .deconn:hover {
+    color:#ff0000;
+    
+  }

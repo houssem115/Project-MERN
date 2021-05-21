@@ -1,0 +1,112 @@
+/*-----------------------*/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+.shop-phone {
+  float: left;
+  margin: 6px 0;
+  margin: 6px 5px 6px 5px;
+}
+.rtl .shop-phone {
+  float: right;
+}
+.rtl .shop-phone {
+  margin: 6px 5px 6px 5px;
+}
+@media (max-width: 767px) {
+  .shop-phone {
+    display: none;
+  }
+}
+.shop-phone i {
+  color: #666666;
+}
+
+#contact-link {
+  float: right;
+  position: relative;
+  top: 11px;
+}
+.rtl #contact-link {
+  float: left;
+}
+#contact-link:before {
+  color: white;
+  content: "\f095";
+  background: #b0896c;
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  left: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.rtl #contact-link:before {
+  right: 0;
+  left: auto;
+}
+@media (max-width: 479px) {
+  #contact-link {
+    width: 25%;
+    text-align: center;
+  }
+}
+#contact-link h4 {
+  font-size: 14px;
+  margin: 0 0 2px 40px;
+  font-weight: bold;
+  text-transform: none;
+}
+.rtl #contact-link h4 {
+  margin: 0 40px 2px 0;
+}
+#contact-link span {
+  font-size: 12px;
+  font-weight: none;
+  margin: 0 0 0 40px;
+}
+.rtl #contact-link span {
+  margin: 0 40px 0 0;
+}
+
+@media (max-width: 767px) {
+  #contact_block {
+    margin-bottom: 20px;
+  }
+}
+#contact_block .label {
+  display: none;
+}
+#contact_block .block_content {
+  color: #888888;
+}
+#contact_block p {
+  margin-bottom: 4px;
+}
+#contact_block p.tel {
+  margin-bottom: 6px;
+}
+#contact_block p.tel i {
+  font-size: 25px;
+  vertical-align: -2px;
+  padding-right: 10px;
+}

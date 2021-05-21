@@ -1,0 +1,174 @@
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+     "header"
+     "footer"
+      "main";
+    grid-template-rows: 3rem 1fr 3rem;
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+a{
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .main{
+     
+    flex: 3 32rem;
+  }
+  
+  .sidebar{
+    flex:1 5rem
+  }
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   list-style-type: none;
+}
+.products li{
+    display: flex;
+    
+    flex: 0 0 1rem;
+    height: 25rem;
+    padding: 1rem;
+   
+   
+}
+.product p{
+    justify-content: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.product img{
+    max-width:15rem;
+    max-height: 15rem;
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-price div,
+.product-price button{
+    text-align: center;
+    flex:1;
+
+}
+.product-price div{
+    font-size: 15px;
+}
+
+.button{
+    width: 60px;
+    border-radius: 10px;
+    color: #050505 ;
+    border: 1px #0e5c45 solid;
+    cursor: pointer;
+}
+.button.primary{ 
+ 
+    height: 30px;
+    
+    
+}
+
+.button:hover{
+  border: 0.5px;
+  background-color: #3fc733  
+}
+ 
+.filter{
+  display: flex;
+  padding: 3px;
+  justify-content: space-between;
+  margin: 0;
+  border-bottom: 0.1rem #c0c0c0 solid;  
+}
+.filter input{
+    margin-left: 70px;
+}
+.filter div{
+    flex: 1;
+
+}
+.cart{
+padding-top: 2px;
+margin: 0px;
+
+
+}
+.cart-header{
+ text-align: center;
+ font-family: fantasy;
+ color: #3fc733;
+
+}
+.cart-headerr{
+    text-align: center;
+    font-family: fantasy;
+    color: #509edd;
+}
+
+
+.cart-items{
+    
+    padding: 8px;
+    width:100%;
+    list-style-type: none;
+}
+.cart-items img{
+    width:  4rem;
+
+}
+.cart-items li{
+    display: flex;
+}
+.cart-items li div{
+    padding: 3px;
+}
+.cart-items  li div:last-child{ 
+    flex: 1;
+}
+.rigth{
+    text-align: right;
+}
+.sidebar i{
+    padding-top: 2px;
+    
+}
+.total{
+    font-family: fantasy;
+    
+    text-align: center;
+   font-style: italic;
+   color: #509edd;
+}
+.pass{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.buttonn{
+    width: 60px;
+    border-radius: 10px;
+    color: #050505 ;
+    border: 1px #0e5c45 solid;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+

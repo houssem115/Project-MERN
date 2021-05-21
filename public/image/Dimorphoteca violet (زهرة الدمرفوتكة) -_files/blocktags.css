@@ -1,0 +1,48 @@
+/*-----------------------*/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+#tags_block_left {
+  margin: 0 35px 35px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #515151;
+}
+#tags_block_left .title_block {
+  color: white;
+  text-transform: none;
+  margin-bottom: 35px;
+  font-size: 20px;
+  text-align: left;
+}
+.rtl #tags_block_left .title_block {
+  text-align: right;
+}
+#tags_block_left .block_content a {
+  color: white;
+  background-color: #515253;
+  padding: 3px 10px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  margin-right: 3px;
+}
+.rtl #tags_block_left .block_content a {
+  margin-left: 3px;
+  margin-right: inherit;
+}
+#tags_block_left .block_content a:hover {
+  background-color: #b0896c;
+}
